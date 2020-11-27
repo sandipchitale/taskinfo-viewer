@@ -1,0 +1,15 @@
+{
+  "TASKINFO" : {
+    "VIEWER": {
+      "LOAD_BUTTON_LABEL": "Load taskinfo-<task>.json file",
+      "LOAD_BUTTON_TITLE": "First run 'gradlew tiJson <task>' and then load 'build/taskinfo/taskinfo-<task>.json'",
+      "CONFIGURE_GRADLE_TASKINFO_BUTTON_TITLE": "Configure gradle-taskinfo plugin in <HOME>/.gradle/init.d/apply-gradle-taskinfo.gradle.",
+      "TASK_LABEL": "Task:",
+      "TASK_PATH_LABEL": "Task Path",
+      "TASK_NAME_LABEL": "Task Name",
+      "TASK_GROUP_LABEL": "Group",
+      "TASK_QUEUE_POSITION_LABEL": "#",
+      "TASK_TYPE_LABEL": "Type"
+    }
+  }
+}

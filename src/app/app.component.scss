@@ -1,0 +1,21 @@
+:host {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  outline: 1px solid #ccc;
+}
+
+:host ::ng-deep .p-organizationchart {
+  height: 100%;
+  overflow: scroll;
+  padding: 1rem;
+}
